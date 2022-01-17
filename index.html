@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cards</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card" >
+            <div class="content">
+                <h2>01</h2>
+                <h3>Lorem Ipsum</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis lectus vulputate, tincidunt tellus in, lobortis diam. Morbi sit amet mattis sapien,</p>
+                <a href="#"> Saiba mais!</a>
+            </div>
+        </div>
+
+        <div class="card" >
+            <div class="content">
+                <h2>02</h2>
+                <h3>Lorem Ipsum</h3>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis lectus vulputate, tincidunt tellus in, lobortis diam. Morbi sit amet mattis sapien,</p>
+                <a href="#"> Saiba mais!</a>
+            </div>
+        </div>
+
+        <div class="card" >
+            <div class="content">
+                <h2>03</h2>
+                <h3>Lorem Ipsum</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis lectus vulputate, tincidunt tellus in, lobortis diam. Morbi sit amet mattis sapien,</p>
+                <a href="#"> Saiba mais!</a>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="vanilla-tilt.babel.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+            max: 35,
+            speed: 300,
+            glare: true,
+        });
+    </script>
+</body>
+</html>
